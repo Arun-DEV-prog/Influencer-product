@@ -37,12 +37,60 @@
     font-size: 1rem;
     font-weight:400;
 }
-/* .nav-items{
-    margin-right: 20px;
-} */
 
 
 
+/* hero-section */
+.hero-section{
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: space-between;
+    align-items: center;
+   
+    height: 90vh;
+    gap: 5.6rem;
+}
+.content{
+    max-width: 390px;
+    height: 180px;
+}
+
+.images{
+    background-image: url("/images/Circle\ design.svg");
+    align-items: center;
+    width: 440px;
+    height: 440px;
+    margin-right: 50px;
+    
+  
+}
+.images img{
+  width: 100%;
+}
+
+.hero-title{
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+
+.hero-desc{
+    margin-bottom: 1rem;
+}
+.btn{
+    background-color: #E02C6D;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
 
 
 
@@ -58,5 +106,36 @@
     }
     .navber .logo{
         font-size: 2rem;
+    }
+
+    .hero-section{
+        flex-direction: column-reverse;
+      
+        margin-top: 150px;
+        width: 100%;
+    }
+    .images img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .hero-section{
+        flex-direction: column;
+        margin-top: 100px;
+
+  
+      
+        
+    }
+    .images img{
+        width: 100%;
+        align-items: center;
+        
+    }
+    
+    .navber{
+        flex-direction: column;
+        gap: 20px;
     }
 }
