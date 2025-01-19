@@ -57,7 +57,7 @@
 }
 
 .images{
-    background-image: url("/images/Circle\ design.svg");
+    background-image: url("../images/Circle\ design.svg");
     background-size: contain;
     background-repeat: no-repeat;
     align-items: center;
