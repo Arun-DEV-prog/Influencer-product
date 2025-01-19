@@ -175,8 +175,7 @@
 /* featured-product */
 .featured-product{
     max-width: 770px;
-    height: 180px;
-
+   
     margin: 0 auto;
 }
 /* featured-container */
@@ -200,6 +199,44 @@
 .featured-desc{
     margin-bottom: 10px;
     font-size: 1rem;
+}
+
+
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+   
+   height: 150px;
+  
+}
+.footer-container{
+   
+     width: 250px;
+     height: 150px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   
+    margin: 20px auto;
+}
+.footer-title{
+    text-align: center;
+    font-size: 1.4rem;
+    align-items: center;
+    margin-bottom: 10px;
+  
+   
+}
+.r{
+    margin-top: 5px;
+    text-align: center;
+}
+.icon {
+    
+  
+    text-align: center;
+    margin-top: 10px;
 }
 /* Responsive  */
 @media screen and (max-width:576px){
